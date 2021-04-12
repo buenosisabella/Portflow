@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.main1{
+    width: 180px;
+    height: 49px;
+    position: absolute;
+    top: 40px;
+    left: 10rem;
+}
+.main2{
+    width: 552px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 3rem;
+}
+.main2 :hover{
+    width: 570px;
+}
+.img-main{
+    width: 100%;
+    position: absolute;
+    top: 122px;
+}
+.main-box{
+    width: 1000px;
+    position:absolute;
+    top: 423px;
+    left: 140px;
+}
+.main-container{
+    position: absolute;
+    top: 560px;
+    left: 140px;
+}
