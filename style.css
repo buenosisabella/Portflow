@@ -11,6 +11,20 @@ header{
     position: relative;
     
 }
+.box-container{
+    width: 111px;
+    height: 27px;
+    background-color: #0C0500;
+    color: #ffff;
+    display: none;
+    position: absolute;
+}
+@media(max-width: 400px){
+    .box-container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
 .main1{
     width: 180px;
     height: 49px;
@@ -20,18 +34,6 @@ header{
     top: 25px;
     left: 70px;
     font-family: 'Montserrat', sans-serif;
-}
-@media(max-width: 540px){
-    .main1{
-    width: 81px;
-    height: 22px;
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    top: 3px;
-    left: 147px;
-    font-family: 'Montserrat', sans-serif;
-    }
 }
 .main2{
     width: 500px;
@@ -49,23 +51,29 @@ header{
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
-@media(max-width: 540px){
-    .main2{
-        display: none;
-    }
-}
 .img-main{
     width: 100%;
     position: absolute;
     top: 70px;
 }
-@media(max-width: 540px){
+@media(max-width: 400px){
     .img-main{
-        position: absolute;
-        top: 27px;
-        left: 0px;
-        width: 375rem;
-        height: 640px;
+        display: none;
+    }
+}
+.modo-mobile{
+    background-image: url(mobile\ novo.png);
+    display: none;
+}
+@media(max-width: 400px){
+    .modo-mobile{
+    width: 375px;
+    height: 640px;
+    display: flex;
+    position:absolute;
+    top: 27px;
+    left: 0px;
+
     }
 }
 .main-box{
@@ -90,6 +98,20 @@ header{
     top: 700px;
     left: 100px;
 }
+@media(max-width: 400px){
+    .box-main1{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
 .box-main2{
     width: 290px;
     height: 290px;
@@ -97,12 +119,41 @@ header{
     top: 700px;
     left: 400px;
 }
+@media(max-width: 400px){
+    .box-main2{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main3{
     width: 290px;
     height: 290px;
     position:absolute;
     top: 700px;
     left: 700px;
+}
+@media(max-width: 400px){
+    .box-main3{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
 }
 .box-main4{
     width: 290px;
@@ -111,6 +162,21 @@ header{
     top: 700px;
     left: 1000px;
 }
+@media(max-width: 400px){
+    .box-main4{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main5{
     width: 290px;
     height: 290px;
@@ -118,6 +184,21 @@ header{
     top: 1000px;
     left: 100px;
 }
+@media(max-width: 400px){
+    .box-main5{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main6{
     width: 290px;
     height: 290px;
@@ -125,6 +206,21 @@ header{
     top: 1000px;
     left: 400px;
 }
+@media(max-width: 400px){
+    .box-main6{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main7{
     width: 290px;
     height: 290px;
@@ -132,6 +228,21 @@ header{
     top: 1000px;
     left: 700px;
 }
+@media(max-width: 400px){
+    .box-main7{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main8{
     width: 290px;
     height: 290px;
@@ -139,6 +250,21 @@ header{
     top: 1000px;
     left: 1000px;
 }
+@media(max-width: 400px){
+    .box-main8{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main9{
     width: 290px;
     height: 290px;
@@ -146,6 +272,21 @@ header{
     top: 1300px;
     left: 100px;
 }
+@media(max-width: 400px){
+    .box-main9{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main10{
     width: 290px;
     height: 290px;
@@ -153,6 +294,21 @@ header{
     top: 1300px;
     left: 400px;
 }
+@media(max-width: 400px){
+    .box-main10{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main11{
     width: 290px;
     height: 290px;
@@ -160,6 +316,21 @@ header{
     top: 1300px;
     left: 700px;
 }
+@media(max-width: 400px){
+    .box-main11{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
 .box-main12{
     width: 290px;
     height: 290px;
@@ -167,3 +338,18 @@ header{
     top: 1300px;
     left: 1000px;
 }
+@media(max-width: 400px){
+    .box-main12{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 733px;
+        left: 38px;
+
+    }
+}
+
