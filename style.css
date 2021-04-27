@@ -53,27 +53,12 @@ header{
 }
 .img-main{
     width: 100%;
-    position: absolute;
-    top: 70px;
+    display:flex;
+    margin-top:60px;
 }
 @media(max-width: 400px){
     .img-main{
         display: none;
-    }
-}
-.modo-mobile{
-    background-image: url(mobile\ novo.png);
-    display: none;
-}
-@media(max-width: 400px){
-    .modo-mobile{
-    width: 375px;
-    height: 640px;
-    display: flex;
-    position:absolute;
-    top: 27px;
-    left: 0px;
-
     }
 }
 .main-box{
@@ -90,6 +75,12 @@ header{
 }
 .main-teste{
     width: 50%;
+}
+.box-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 .box-main1{
     width: 290px;
@@ -352,4 +343,10 @@ header{
 
     }
 }
+.width-footer{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 1690px;
 
+}
