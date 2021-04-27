@@ -12,7 +12,7 @@ header{
     
 }
 .box-container{
-    width: 111px;
+    width: 200px;
     height: 27px;
     background-color: #0C0500;
     color: #ffff;
@@ -35,6 +35,15 @@ header{
     left: 70px;
     font-family: 'Montserrat', sans-serif;
 }
+@media(max-width: 398px){
+    .main1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 550px;
+    }
+}
 .main2{
     width: 500px;
     display: flex;
@@ -46,21 +55,35 @@ header{
     font-family: 'Montserrat', sans-serif;
     color: #CDC9C9;
 }
+@media(max-width: 398px){
+    .main2{
+        display: none;
+    }
+}
 .main2 :hover{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
 .img-main{
-    width: 100%;
-    display:flex;
-    margin-top:60px;
+    width: 1348px;
+    position: relative;
+    top:60px;
 }
-@media(max-width: 400px){
+.img-main img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+@media(max-width: 398px){
     .img-main{
-        display: none;
+        width: 1500pxpx;
+        position: absolute;
+        left: px;
     }
 }
+
 .main-box{
     width: 770px;
     position:absolute;
@@ -73,14 +96,15 @@ header{
     top: 400px;
     left: 140px;
 }
-.main-teste{
-    width: 50%;
-}
-.box-main-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+@media(max-width:398px){
+    .box-main-container img{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 .box-main1{
     width: 290px;
@@ -89,40 +113,13 @@ header{
     top: 700px;
     left: 100px;
 }
-@media(max-width: 400px){
-    .box-main1{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
 
-    }
-}
 .box-main2{
     width: 290px;
     height: 290px;
     position:absolute;
     top: 700px;
     left: 400px;
-}
-@media(max-width: 400px){
-    .box-main2{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
 }
 
 .box-main3{
@@ -132,40 +129,12 @@ header{
     top: 700px;
     left: 700px;
 }
-@media(max-width: 400px){
-    .box-main3{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
 .box-main4{
     width: 290px;
     height: 290px;
     position:absolute;
     top: 700px;
     left: 1000px;
-}
-@media(max-width: 400px){
-    .box-main4{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
 }
 
 .box-main5{
@@ -175,20 +144,6 @@ header{
     top: 1000px;
     left: 100px;
 }
-@media(max-width: 400px){
-    .box-main5{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
 
 .box-main6{
     width: 290px;
@@ -197,21 +152,6 @@ header{
     top: 1000px;
     left: 400px;
 }
-@media(max-width: 400px){
-    .box-main6{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
-
 .box-main7{
     width: 290px;
     height: 290px;
@@ -219,41 +159,12 @@ header{
     top: 1000px;
     left: 700px;
 }
-@media(max-width: 400px){
-    .box-main7{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
-
 .box-main8{
     width: 290px;
     height: 290px;
     position:absolute;
     top: 1000px;
     left: 1000px;
-}
-@media(max-width: 400px){
-    .box-main8{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
 }
 
 .box-main9{
@@ -263,20 +174,6 @@ header{
     top: 1300px;
     left: 100px;
 }
-@media(max-width: 400px){
-    .box-main9{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
 
 .box-main10{
     width: 290px;
@@ -284,20 +181,6 @@ header{
     position:absolute;
     top: 1300px;
     left: 400px;
-}
-@media(max-width: 400px){
-    .box-main10{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
 }
 
 .box-main11{
@@ -307,21 +190,6 @@ header{
     top: 1300px;
     left: 700px;
 }
-@media(max-width: 400px){
-    .box-main11{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
-
-    }
-}
-
 .box-main12{
     width: 290px;
     height: 290px;
@@ -329,24 +197,17 @@ header{
     top: 1300px;
     left: 1000px;
 }
-@media(max-width: 400px){
-    .box-main12{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: absolute;
-        top: 733px;
-        left: 38px;
 
-    }
-}
 .width-footer{
-    width: 100%;
+    width: 1348px;
     display: flex;
     position: absolute;
-    top: 1690px;
-
+    top: 1640px;
+    
+}
+.width-footer img{
+    width: 100%;
+}
+img{
+    width: 100%;
 }
