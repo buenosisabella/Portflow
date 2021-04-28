@@ -103,7 +103,7 @@ a{
     color: rgb(252, 249, 249);
 }
 .header-bottom{
-    background-image: url(/assets/img1.png);
+    background-image: url(assets/img1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 45vw;
